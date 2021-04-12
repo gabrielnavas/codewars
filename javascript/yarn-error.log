@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add -D jest
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/navas/.yarn/bin:/home/navas/Android/Sdk/emulator:/home/navas/Android/Sdk/tools:/home/navas/Android/Sdk/tools/bin:/home/navas/Android/Sdk/platform-tools:/home/navas/.fzf/bin:/home/navas/.yarn/bin:/home/navas/Android/Sdk/emulator:/home/navas/Android/Sdk/tools:/home/navas/Android/Sdk/tools/bin:/home/navas/Android/Sdk/platform-tools:/home/navas/.yarn/bin:/home/navas/Android/Sdk/emulator:/home/navas/Android/Sdk/tools:/home/navas/Android/Sdk/tools/bin:/home/navas/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "javascript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
